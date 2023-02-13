@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.mainbox {
+    background: rgb(240,242,245);
+    display: flex;
+    justify-content: center;
+    padding: 92px 0 192px 0;
+}
+.inputbox input {
+    width: 330px;
+    padding: 14px 16px;
+    border: 0.8px solid #dddfe2;
+    margin: 6px 0;
+    border-radius: 8px;
+    font-size: 17px;
+}
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0.8px solid #dddfe2;
+    border-radius: 6px;
+    width: 390px;
+    align-items: center;
+    padding: 10px 2px 18px;
+    margin-top: 40px;
+    margin-right: 295px;
+    margin-left: 62px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.logo {
+    width: 300px;
+    margin: -40px;
+}
+.logobox {
+    align-self: center;
+    margin-left: 282px;
+}
+#slogan {
+    font-size: 28px;
+    width: auto;
+    line-height: 32px;
+    margin-left: -10px;
+}
+.inputbox .intoButton {
+    width: 365px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+#line {
+    margin: 20px 16px;
+    width: 364px;
+    border: none;
+    height: 1px;
+    background-color: #dadde1;
+}
+#forget {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#newAccButton {
+    background-color: #42b72a;
+    width: 230px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.create a {
+    color : #1c1e21;
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
+}
+.create .crbutton {
+    font-weight: bold;
+}
+.create {
+    margin-top: 28px;
+    margin-left: 62px;
+    width: 400px;
+    text-align: center;
+    font-size: 14px;
+}
+ul{
+    margin-left: -40px;
+    color: inherit;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    color: #737373;
+    padding-right: 20px;
+}
+li a {
+    text-decoration: none;
+}
+#line2 {
+    border: none;
+    height: 0.5px;
+    background-color: #dadde1;
+}
+#links a:visited, #copyright {
+    color: #737373;
+}
+#links ul li {
+    padding-right: 10px;
+}
+#links{
+    margin: 0 275px;
+    font-size: 12px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+#bottom-links{
+    font-size: 12px;
+    line-height: 20px;
+}

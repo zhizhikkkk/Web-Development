@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(250,250,250);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 56px;
+}
+#image {
+    width: 380px;
+    margin: 0 32px 12px 0;
+}
+#logo {
+    width: 174px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.input{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    border: 1px solid rgb(219, 219, 219);
+    width: 350px;
+    padding: 10px 0;
+    margin: 10px 0;
+    font: inherit;
+}
+.input input {
+    width: 270px;
+    padding: 9px 0 7px 8px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    margin: 0 40px 6px 40px;
+    font: inherit;
+    height: 20px;
+}
+#FacebookLogo {
+    width: 15px;
+}
+
+#into {
+    font: inherit;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 280px;
+    cursor: pointer;
+    background-color: rgb(77,181,249);
+    color: white;
+    font-size: 14px;
+    height: 32px;
+}
+.ili {
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 18px;
+}
+.border {
+    display: flex;
+    width: 100%;
+    margin: 10px 40px 18px 40px;
+}
+.border hr {
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(219, 219, 219);
+    border: none;
+}
+#bhr1 {
+    margin-left: 40px;
+}
+#bhr2 {
+    margin-right: 40px;
+}
+.reg {
+    padding: 20px 0;
+    background-color: white;
+    border: 0.8px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+}
+#reghref {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+}
+#forgot {
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+#i1 {
+    text-decoration: none;
+    color: #385185;
+    font-weight: 600;
+    font-size: 14px;
+}
+#i2 {
+    margin: 8px 40px;
+}
+#q1 {
+    margin: 15px;
+    font-size: 14px;
+}
+.t1 {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 20px;
+}
+#googleplay {
+    width: 134px;
+    margin-right: 10px;
+}
+#microsoft {
+    width: 110px;
+}
+.getlinks {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.bb1 {
+    display: inline-flex;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+.bb1 a {
+    margin-right: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+.bb1 a:visited {
+    color: rgb(142, 142, 142);
+}
+.b1 {
+    display: block;
+    text-align: center;
+}
+.bb2 {
+    color:rgb(142, 142, 142);
+    display: inline-flex;
+    align-items: center;
+    /*margin-left: 40%;*/
+    margin-bottom: 52px;
+}
+.bb2 span {
+    margin-right: 20px;
+}
+.b2 {
+    display: block;
+    text-align: center;
+
+}
