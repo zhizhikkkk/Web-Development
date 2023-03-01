@@ -1,0 +1,13 @@
+.category-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #616161 solid;
+    margin-right: 20px;
+}
+.category-items {
+    display: flex;
+    flex-direction: row;
+}
