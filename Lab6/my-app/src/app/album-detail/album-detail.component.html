@@ -1,0 +1,13 @@
+<div *ngIf="album.id">
+    <h2>Album detail</h2>
+    <h4>{{album.title}}</h4>
+  
+    <form [formGroup]="form" (ngSubmit)="changeTitle(album)">
+      <input type="text" placeholder="New title" formControlName="newTitle">
+      <button type="submit">Submit</button>
+    </form>
+  
+    <p> Id: {{ album.id }} </p>
+    <p> User id: {{ album.userId }} </p>
+    <a routerLink="photos"><button>Photos</button></a>
+  </div>
