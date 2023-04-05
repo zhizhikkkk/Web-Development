@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {Location } from "@angular/common";
 
 @Component({
   selector: 'app-top-bar',
@@ -7,9 +6,5 @@ import {Location } from "@angular/common";
   styleUrls: ['./top-bar.component.css']
 })
 export class TopBarComponent {
-  constructor(private location: Location) {
-  }
-  goBack(){
-    this.location.back();
-  }
+
 }

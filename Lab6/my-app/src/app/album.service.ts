@@ -8,13 +8,13 @@ import {Album, Photos} from "../album";
   providedIn: 'root'
 })
 export class AlbumService {
-  x: Observable<Album[]>;
 
-  constructor(private http: HttpClient) { 
-    this.x = this.http.get<Album[]>('https://jsonplaceholder.typicode.com/albums');
+
+  constructor(private http: HttpClient) {
+
   }
   getAlbums(): Observable<Album[]> {
-    return this.x;
+    return this.http.get<Album[]>('https://jsonplaceholder.typicode.com/albums');
   }
 
   getAlbum(id: number): Observable<Album> {

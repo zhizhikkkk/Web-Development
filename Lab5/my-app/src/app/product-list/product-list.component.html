@@ -1,0 +1,36 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products" class="item ">
+
+  <h3>
+    <!-- [href]="product.url" target="_blank" -->
+    <a
+    [title]="product.name + ' details'"
+    routerLink="/categories/{{product.categoryName}}/products//{{product.id}}"
+    >
+      {{ product.name }}
+    </a>
+  </h3>
+
+  
+  <img [src]="product.img_url[0]" [alt]="product.name" width="300px">
+
+  <p *ngIf="product.description" class="description">
+    Description: {{ product.description }}
+  </p>
+  <div class="communicate">
+    <div class="btn-div">
+      <button class="delete-btn"  (click)="deleteP(product)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQid1CTulGtyIQO0OWXbxfwACywGYP-boE8K6kdv3JhcEh8jT_eHQido9lE4D4GoKDb1dI&usqp=CAU" width="20"></button>
+    </div>
+    <button type="button" (click)="share(product.name, product.url)">
+      Share
+    </button>
+    <button type="button" (click)="kaspi(product.url)">
+      Kaspi
+    </button>
+    <button type="button" class="likebtn" (click)="addLike(product)">
+      ♥
+    </button>
+    {{product.likes}}
+  </div>
+</div>

@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 import {Album} from "../../album";
 import {AlbumService} from "../album.service";
+import {map, pipe} from "rxjs";
 
 @Component({
   selector: 'app-albums',
@@ -16,13 +17,15 @@ export class AlbumsComponent implements OnInit {
     private route: ActivatedRoute,
     private albumService: AlbumService,
   ) {
-    
+
   }
 
   ngOnInit(): void {
-    this.albumService.getAlbums().subscribe((albums: Album[]) => {
+    this.albumService.getAlbums()
+      .pipe(map((x) => x.filter(x=>)))
+      .subscribe((albums: Album[]) => {
       this.albums = albums;
-    })
+    });
     this.albums = this.albums.filter(album => album.id >= 1);
   }
 
